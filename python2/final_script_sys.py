@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import sys
 
-test = 50
-
+test =float(sys.argv[1])
+print(type(test))
 if test <0:
 	message='negative'
 	print(test, message)
